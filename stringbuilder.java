@@ -6,9 +6,9 @@ public class stringbuilder {
         sb.setCharAt(2, 'p');               //modify char
         System.out.println(sb);
         sb.insert(0,'S');              //insert
-        System.err.println(sb);
+        System.out.println(sb);
         sb.delete(2,3);                 //delete char with starting and ending index
-        System.err.println(sb);
+        System.out.println(sb);
         sb.append("check");
         System.out.println(sb);
         sb.reverse();
